@@ -1,0 +1,850 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/d1c2ea8b80.js" crossorigin="anonymous"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+        .vr-footer-background{
+            background-color: #191a1d;
+            background-size: cover;
+            height: 100vh;
+            width: 100vw;
+        }
+        .vr-footer-image{
+            height: 250px;
+            width: 250px;
+        }
+        .vr-footer-heading{
+            color: white;
+        }
+        .vr-footer-description{
+            color: #9aa5b1;
+        }
+        .navbar-brand-logo{
+            border: 2px solid blue;
+            padding: 5px;
+        }
+        .navbar-items-alignment{
+          
+          margin-left: auto;
+        }
+        .banner-button{
+          border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <a class="navbar-brand navbar-brand-logo" href="#">MHK</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse " id="navbarNav">
+          <ul class="navbar-nav navbar-items-alignment">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#aboutme">About me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#education">Education</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#projects">Projects</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#services">Services</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#details">Details</a>
+            </li>
+            
+          </ul>
+        </div>
+      </nav>
+      <div class="container-fluid vr-footer-background d-flex flex-column justiify-content-center">
+        <div class="row">
+            <div class="col-12 order-1 col-md-5 order-md-2 mt-5">
+                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/portfolio-banner-img.png" class="vr-footer-image mt-3 mb-3"/>
+
+            </div>
+            <div class="col-12 order-2 col-md-7 order-md-1 mt-5">
+                <h1 class="vr-footer-heading mt-5">Hey, I am Hemanth Kumar Manne</h1>
+                <p class="vr-footer-description mt-4">I am a Front End Developer</p>
+                <a href="mailto:mannehemanthkumar2001@gmail.com?subject=Subject%20Here&body=Body%20Text%20Here" target="_blank"><button class="btn btn-primary mb-5 mt-3 banner-button">Contact Me</button></a>
+                
+
+            </div>
+
+        </div>
+
+      </div>
+      
+
+
+
+
+
+
+
+      <!DOCTYPE html>
+      <html>
+      
+      <head id="about_me">
+          <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+          <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+          <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+          <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+          <style>
+              @import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+      
+      .portfolio-website-about-me-skills-bg-container {
+          background-color: #323f4b;
+      }
+      
+      .portfolio-website-about-me-skills-subheading {
+          color: #cced00;
+          font-size: 20px;
+          font-family: "Roboto";
+          font-weight: 600;
+      }
+      
+      .portfolio-website-about-me-skills-mainheading {
+          color: #ffffff;
+          font-size: 35px;
+          font-family: "Roboto";
+          font-weight: 700;
+      }
+      
+      .portfolio-website-about-me-skills-paragraph {
+          color: #9aa5b1;
+          font-size: 20px;
+          font-family: "Roboto";
+          font-weight: 500;
+      }
+      
+      .portfolio-website-about-me-skills-bg-container2 {
+          background-color: #1f2933;
+      }
+      
+      .portfolio-website-about-me-skills-card-container {
+          background-color: #323f4b;
+          border-radius: 50px;
+          padding-bottom: 30px;
+      
+      }
+      
+      .portfolio-website-about-me-skills-card-heading {
+          color: #ffffff;
+          font-size: 30px;
+          font-family: "Roboto";
+          font-weight: 600;
+      
+      }
+      .about-image{
+          width: 10px;
+          height: 550px;
+      }
+          </style>
+      </head>
+      
+      <body>
+          <div class="portfolio-website-about-me-skills-bg-container p-2 " id="aboutme">
+              <div class="container">
+                  <div class="row">
+      
+                      <div class="col-md-6 order-md-2">
+                          <h1 class="portfolio-website-about-me-skills-subheading">Facts</h1>
+                          <h1 class="portfolio-website-about-me-skills-mainheading">About me</h1>
+      
+      
+                          <img src="" />
+      
+                          <p class="portfolio-website-about-me-skills-paragraph">
+                              My name is Manne Hemanth Kumar, and I am currently looking for a job in Frontend Development. I have completed my Master's in Computer Applications. People find me to upbeat,
+                              self-motivated team player with excellent communication skills.
+                              <br />
+                              <br />
+                              I am a dedicated person with a family of four. I enjoy solving puzzles and learning new skills that helped me to develop logic more fasterway and helped me to complete projects in a planned time.
+                          </p>
+                      </div>
+                      <div class="d-none d-md-block order-md-1 col-6">
+                          <img src="c:\Users\DELL\OneDrive\Pictures\Saved Pictures\hemanth (2).jpg" class="w-100 pb-2 about-image" />
+                      </div>
+      
+                  </div>
+              </div>
+          </div>
+          <div class="portfolio-website-about-me-skills-bg-container2 p-2 shadow">
+              <div class="container">
+                  <div class="row">
+                      <div class="col-12">
+                          <h1 class="portfolio-website-about-me-skills-subheading">Skills :</h1><br>
+                      </div>
+                      <div class="col-6 col-md-3">
+                          <div class="portfolio-website-about-me-skills-card-container text-center ">
+                              <div>
+                                  <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/portfolio-skills-html-img.png" class="w-50 pt-3 pb-2" />
+                                  <h1 class="portfolio-website-about-me-skills-card-heading pb-2">HTML</h1>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="col-6 col-md-3">
+                          <div class="portfolio-website-about-me-skills-card-container text-center ">
+                              <div>
+                                  <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/portfolio-skills-css-img.png" class="w-50 pt-3 pb-2" />
+                                  <h1 class="portfolio-website-about-me-skills-card-heading pb-2">CSS</h1>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="col-6 col-md-3">
+                          <div class="portfolio-website-about-me-skills-card-container text-center ">
+                              <div>
+                                  <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/portfolio-skills-bootstrap-img.png" class="w-50 pt-3 pb-2" />
+                                  <h1 class="portfolio-website-about-me-skills-card-heading pb-2">BOOTSTRAP</h1>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="col-6 col-md-3">
+                          <div class="portfolio-website-about-me-skills-card-container text-center ">
+                              <div>
+                                  <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/portfolio-skills-js-img.png" class="w-50 pt-3 pb-2" />
+                                  <h1 class="portfolio-website-about-me-skills-card-heading pb-2">JAVASCRIPT</h1>
+                              </div> 
+                          </div>
+                      </div>
+                      <br>
+                  </div><br><br>
+              </div>
+          </div>
+      </body>
+      
+      </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <!DOCTYPE html>
+      <html>
+      
+      <head id="about_me">
+          <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+          <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+          <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+          <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+          <style>
+              @import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+      
+      .portfolio-website-about-me-skills-bg-container {
+          background-color: #323f4b;
+      }
+      
+      .portfolio-website-about-me-skills-subheading {
+          color: #cced00;
+          font-size: 26px;
+          font-family: "Roboto";
+          font-weight: 400;
+      }
+      
+      .portfolio-website-about-me-skills-mainheading {
+          color: #ffffff;
+          font-size: 22px;
+          font-family: "Roboto";
+          font-weight: 400;
+      }
+      
+      .portfolio-website-about-me-skills-paragraph {
+          color: #9aa5b1;
+          font-size: 20px;
+          font-family: "Roboto";
+          font-weight: 500;
+      }
+      
+      .portfolio-website-about-me-skills-bg-container2 {
+          background-color: #1f2933;
+      }
+      
+      .portfolio-website-about-me-skills-card-container {
+          background-color: #323f4b;
+          border-radius: 50px;
+          padding-bottom: 30px;
+      
+      }
+      
+      .portfolio-website-about-me-skills-card-heading {
+          color: #ffffff;
+          font-size: 30px;
+          font-family: "Roboto";
+          font-weight: 600;
+      
+      }
+      .about-image{
+          width: 10px;
+          height: 550px;
+      }
+      .education-subheading{
+        font-family: "Roboto";
+        font-weight: 300;
+        color:#e2e8f2
+
+      }
+          </style>
+      </head>
+      
+      <body>
+          <div class="portfolio-website-about-me-skills-bg-container p-2 " id="education">
+              <div class="container">
+                    <div class="col-md-12">
+                          <h1 class="portfolio-website-about-me-skills-subheading mt-3">Education</h1><br>
+                          
+      
+      
+                        <h3 class="portfolio-website-about-me-skills-mainheading"> Master of Computer Applications  &nbsp;&nbsp;(MCA) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;02/2022 - 09/2023</h3>
+                        <p class="education-subheading">Chdalawada Ramanamma Engineering College &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   (8.8/10 CGPA)</p>
+                        <br><br>
+                        <h3 class="portfolio-website-about-me-skills-mainheading"> Bachelor of Science &nbsp;&nbsp; (B.Sc)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;06/2018 - 09/2021</h3>
+                        <p class="education-subheading">  Sri Venkateswara Arts College    &nbsp;&nbsp;&nbsp;&nbsp;(8.8/10 CGPA)</p>
+                        <br><br>
+                        <h3 class="portfolio-website-about-me-skills-mainheading">Intermediate &nbsp;&nbsp;(MPC) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;02/2022 - 09/2023</h3>
+                        <p class="education-subheading">Sri Chaitanya Junior College &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   (941/1000 Marks)</p>
+                        <br><br>
+                        <h3 class="portfolio-website-about-me-skills-mainheading"> SSC  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;02/2022 - 09/2023</h3>
+                        <p class="education-subheading">Z P High School &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   (9.0/10 CGPA)</p>
+                        <br><br>
+                    </div>
+              </div>
+          </div>
+          <div class="portfolio-website-about-me-skills-bg-container2 p-2 shadow">
+              <div class="container">
+                  <div class="row">
+                      
+                      <br>
+                  </div><br><br>
+              </div>
+          </div>
+      </body>
+      
+      </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      
+
+
+
+
+
+
+      
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+        .portfolio-project-background{
+            background-color: #3e4c59;
+        }
+        .portfolio-website-heading1{
+            color: #cced00;
+            font-family: "Roboto";
+            font-size: 25px;
+        }
+        .portfolio-website-heading2{
+            color: white;
+            font-family: "Roboto";
+            font-size: 35px;
+        }
+        .project-image{
+            height: 300px;
+            width: 540px;
+        }
+        .project-card{
+            background-color: #323f4b;
+        }
+    </style>
+</head>
+<body>
+   
+    <div class="portfolio-project-background" id="projects">
+        
+        <br><br>
+        <div class="container ">
+            <div class="row">
+                <div class="col-12">
+                    <div class="portfolio-website-heading1 ml-3">Portfolio</div>
+                    <div class="portfolio-website-heading2 m-3">Projects I have done</div>
+                </div>
+                <div class="col-12 col-lg-6">
+                    <div class="project-card shadow" >
+                        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/portfolio-project-1-img.png" class="project-image" />
+                        <p style="color: #9aa5b1; " class="mt-3 ml-3">Web design</p>
+                        <h3 style="color: white; " class="mt-3 ml-3">Royal Grand Hotel</h3>
+                        <p style="color: #9aa5b1;font-size: 25px; " class="mt-3 ml-3">Royal Grand Hotel is a simple static website.  We can use this layout for booking a room in Hotel.</p>
+                        <p style="color: #cced00; font-weight: 500;" class="mt-3 ml-3">Read More <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"/>
+                          </svg></p>
+                    </div>
+    
+                </div>
+                <div class="col-12 col-lg-6">
+                    <div class="project-card shadow">
+                        <img src="C:\Users\DELL\OneDrive\Pictures\Screenshots\Screenshot (157).png" class="project-image" />
+                        <p style="color: #9aa5b1; " class="mt-3 ml-3">Web design</p>
+                        <h3 style="color: white; " class="mt-3 ml-3">Food Munch Webiste</h3>
+                        <p style="color: #9aa5b1;font-size: 25px; " class="mt-3 ml-3">Food Munch Website is a simple static website.  We can use this site for ordering food from a famous restaurant Food Munch</p>
+                        <p style="color: #cced00; font-weight: 500;" class="mt-3 ml-3" class="mb-5">Read More <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"/>
+                          </svg></p>
+                    </div>
+    
+                </div>
+    
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
+        <div class="container ">
+            <div class="row">
+                
+                <div class="col-12 col-lg-6">
+                    <div class="project-card shadow" >
+                        <img src="c:\Users\DELL\OneDrive\Pictures\Screenshots\Screenshot (154).png" class="project-image" />
+                        <p style="color: #9aa5b1; " class="mt-3 ml-3">Web design</p>
+                        <h3 style="color: white; " class="mt-3 ml-3">Wikipedia Search</h3>
+                        <p style="color: #9aa5b1;font-size: 25px; " class="mt-3 ml-3">Wikipedia Search Application. From here we can search anything from Wikipedia in a simpler way and user friendly.</p>
+                        <p style="color: #cced00; font-weight: 500;" class="mt-3 ml-3">Read More <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"/>
+                          </svg></p>
+                    </div>
+    
+                </div>
+                <div class="col-12 col-lg-6">
+                    <div class="project-card shadow">
+                        <img src="C:\Users\DELL\OneDrive\Pictures\Screenshots\Screenshot (155).png" class="project-image" />
+                        <p style="color: #9aa5b1; " class="mt-3 ml-3">Web design</p>
+                        <h3 style="color: white; " class="mt-3 ml-3">Virtual Reality</h3>
+                        <p style="color: #9aa5b1;font-size: 25px; " class="mt-3 ml-3">This is a Online Store for ordering Virtual Reality Products to Home delivery. </p>
+                        <p style="color: #cced00; font-weight: 500;" class="mt-3 ml-3" class="mb-5">Read More <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"/>
+                          </svg></p>
+                    </div>
+    
+                </div>
+    
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
+        <div class="container ">
+            <div class="row">
+                
+                <div class="col-12 col-lg-6">
+                    <div class="project-card shadow" >
+                        <img src="C:\Users\DELL\OneDrive\Pictures\Screenshots\Screenshot (156).png" class="project-image" />
+                        <p style="color: #9aa5b1; " class="mt-3 ml-3">Web design</p>
+                        <h3 style="color: white; " class="mt-3 ml-3">News Page</h3>
+                        <p style="color: #9aa5b1;font-size: 25px; " class="mt-3 ml-3">News Page is a simple static website.  To read the worlds latest News </p>
+                        <p style="color: #cced00; font-weight: 500;" class="mt-3 ml-3">Read More <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"/>
+                          </svg></p>
+                    </div>
+    
+                </div>
+                <div class="col-12 col-lg-6">
+                    <div class="project-card shadow">
+                        <img src="C:\Users\DELL\OneDrive\Pictures\Screenshots\Screenshot (158).png" class="project-image" />
+                        <p style="color: #9aa5b1; " class="mt-3 ml-3">Web design</p>
+                        <h3 style="color: white; " class="mt-3 ml-3">Favorite Stores</h3>
+                        <p style="color: #9aa5b1;font-size: 25px; " class="mt-3 ml-3">Favorite Stores is a simple static website.  We can use this we can access all online platforms.</p>
+                        <p style="color: #cced00; font-weight: 500;" class="mt-3 ml-3" class="mb-5">Read More <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"/>
+                          </svg></p>
+                    </div>
+    
+                </div>
+    
+            </div>
+        </div>
+
+    </div>
+    
+</body>
+</html>
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+        .portfolio-services-heading1{
+            color: #cced00;
+            font-family: "Roboto";
+            font-size: 25px;
+            font-weight: 550;
+        }
+        .portfolio-services-heading2{
+            color: white;
+            font-family: "Roboto";
+            font-size: 40px;
+            font-weight: 600;
+        }
+        .portfolio-services-background{
+            background-color: #52606d;
+            background-size: cover;
+            
+        }
+        .portfolio-services-image{
+            height: 60px;
+            width: 60px;
+        }
+        .services-card{
+            background-color: #323f4b;
+        }
+        .services-card-heading{
+            color: white;
+            font-family: "Roboto";
+            font-weight: 500;
+        }
+        .services-card-description{
+            color: #9aa5b1;
+            font-size: 20px;
+            padding-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="portfolio-services-background" id="services">
+        <br>
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div>
+                        <p class="portfolio-services-heading1">Services</p>
+                        <p class="portfolio-services-heading2">What I do</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="services-card ">
+                        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/portfolio-web-design-img.png" class="portfolio-services-image m-3"/>
+                        <h2 class="services-card-heading mb-3 ml-3">Static Website</h2>
+                        <p class="services-card-description m-3">A Static Website contains web pages with fixed content. Each page is developed using HTML and CSS and displays the same information to every visitor.</p>
+                    </div>
+
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="services-card ">
+                        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/portfolio-web-development-img.png" class="portfolio-services-image m-3"/>
+                        <h2 class="services-card-heading mb-3 ml-3">Responsive Web design</h2>
+                        <p class="services-card-description m-3">Responsive web design is the approach that suggests that design and development should response to the users behaviour and environment based on screen, size, platform and orientaion.</p>
+                    </div>
+
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="services-card ">
+                        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/portfolio-customize-img.png" class="portfolio-services-image m-3"/>
+                        <h2 class="services-card-heading mb-3 ml-3">Customisable Layouts</h2>
+                        <p class="services-card-description m-3">Customisable sites are templates with set layouts. You may be able to change photos and colors, but your site will look similar to many other sites due to the template.  The same goes for...</p>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+    
+</body>
+</html>
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+        .website-workdone-background{
+            background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/portfolio-work-done-bg.png");
+            background-size: cover;
+            height: 100vh;
+            width: 100vw;
+        }
+        .workdone-color{
+            color: white;
+            padding: 30px;
+            padding-top: 50px;
+            
+        }
+        .text-center{
+            padding-top: 150px;
+        }
+    </style>
+</head>
+<body>
+    <div class="website-workdone-background">
+        <div class="container ">
+            <div class="row ">
+                <div class="col-4 text-center ">
+                    <div class="workdone-color">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" fill="currentColor" class="bi bi-hand-thumbs-up color" viewBox="0 0 16 16">
+                            <path d="M8.864.046C7.908-.193 7.02.53 6.956 1.466c-.072 1.051-.23 2.016-.428 2.59-.125.36-.479 1.013-1.04 1.639-.557.623-1.282 1.178-2.131 1.41C2.685 7.288 2 7.87 2 8.72v4.001c0 .845.682 1.464 1.448 1.545 1.07.114 1.564.415 2.068.723l.048.03c.272.165.578.348.97.484.397.136.861.217 1.466.217h3.5c.937 0 1.599-.477 1.934-1.064a1.86 1.86 0 0 0 .254-.912c0-.152-.023-.312-.077-.464.201-.263.38-.578.488-.901.11-.33.172-.762.004-1.149.069-.13.12-.269.159-.403.077-.27.113-.568.113-.857 0-.288-.036-.585-.113-.856a2.144 2.144 0 0 0-.138-.362 1.9 1.9 0 0 0 .234-1.734c-.206-.592-.682-1.1-1.2-1.272-.847-.282-1.803-.276-2.516-.211a9.84 9.84 0 0 0-.443.05 9.365 9.365 0 0 0-.062-4.509A1.38 1.38 0 0 0 9.125.111L8.864.046zM11.5 14.721H8c-.51 0-.863-.069-1.14-.164-.281-.097-.506-.228-.776-.393l-.04-.024c-.555-.339-1.198-.731-2.49-.868-.333-.036-.554-.29-.554-.55V8.72c0-.254.226-.543.62-.65 1.095-.3 1.977-.996 2.614-1.708.635-.71 1.064-1.475 1.238-1.978.243-.7.407-1.768.482-2.85.025-.362.36-.594.667-.518l.262.066c.16.04.258.143.288.255a8.34 8.34 0 0 1-.145 4.725.5.5 0 0 0 .595.644l.003-.001.014-.003.058-.014a8.908 8.908 0 0 1 1.036-.157c.663-.06 1.457-.054 2.11.164.175.058.45.3.57.65.107.308.087.67-.266 1.022l-.353.353.353.354c.043.043.105.141.154.315.048.167.075.37.075.581 0 .212-.027.414-.075.582-.05.174-.111.272-.154.315l-.353.353.353.354c.047.047.109.177.005.488a2.224 2.224 0 0 1-.505.805l-.353.353.353.354c.006.005.041.05.041.17a.866.866 0 0 1-.121.416c-.165.288-.503.56-1.066.56z"/>
+                          </svg>
+                          <hr class="bg-white" />
+                        <h3>10</h3>
+                        <h4>Projects Completed</h4>
+                    </div>
+
+                </div>
+                <div class="col-4 text-center">
+                    <div class="workdone-color">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" fill="currentColor" class="bi bi-file-earmark-text" viewBox="0 0 16 16">
+                            <path d="M5.5 7a.5.5 0 0 0 0 1h5a.5.5 0 0 0 0-1h-5zM5 9.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5zm0 2a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 0 1h-2a.5.5 0 0 1-.5-.5z"/>
+                            <path d="M9.5 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V4.5L9.5 0zm0 1v2A1.5 1.5 0 0 0 11 4.5h2V14a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h5.5z"/>
+                          </svg>
+                          <hr class="bg-white" />
+                        <h3>2,800</h3>
+                        <h4>Lines of Code</h4>
+                    </div>
+
+                </div>
+                <div class="col-4 text-center">
+                    <div class="workdone-color">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" fill="currentColor" class="bi bi-stopwatch" viewBox="0 0 16 16">
+                            <path d="M8.5 5.6a.5.5 0 1 0-1 0v2.9h-3a.5.5 0 0 0 0 1H8a.5.5 0 0 0 .5-.5V5.6z"/>
+                            <path d="M6.5 1A.5.5 0 0 1 7 .5h2a.5.5 0 0 1 0 1v.57c1.36.196 2.594.78 3.584 1.64a.715.715 0 0 1 .012-.013l.354-.354-.354-.353a.5.5 0 0 1 .707-.708l1.414 1.415a.5.5 0 1 1-.707.707l-.353-.354-.354.354a.512.512 0 0 1-.013.012A7 7 0 1 1 7 2.071V1.5a.5.5 0 0 1-.5-.5zM8 3a6 6 0 1 0 .001 12A6 6 0 0 0 8 3z"/>
+                          </svg>
+                          <hr class="bg-white" />
+                        <h3>15</h3>
+                        <h4>Hours Worked</h4>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+</body>
+</html>
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>    
+    <script src="https://kit.fontawesome.com/YOUR_KIT_CODE.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+      
+      
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+        .portfolio-footer-background{
+            background-color: #0d2436;
+        }
+        .portfolio-footer-image{
+            width: 150px;
+            height: 150px;
+            border-radius: 75px;
+            margin: 15px;
+        }
+        .portfolio-heading{
+            color: #cced00;
+            font-family: "Roboto";
+            font-size: 25px;
+        }
+        .portfolio-description{
+            color: #9aa5b1;
+            font-family: "Roboto";
+            font-size:19px ;
+        }
+        .footer-section-icons {
+            font-size: 25px;
+            color: #0e6637;
+            margin-right: 10px;
+        }
+        .footer-background{
+            
+            background-color: #001c32;
+            text-align: center;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="portfolio-footer-background" id="details">
+        <br><br>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12 col-md-3">
+                    <div class="d-flex flex-row">
+                        
+                        <div>
+                            <p class="portfolio-heading">Hemanth Kumar Manne</p>
+                            <p class="portfolio-description">Frontend Developer</p>
+                        </div>
+                    </div>
+    
+                </div>
+                <div class="col-12 col-md-3">
+                    <p class="portfolio-heading">Phone No.</p>
+                    <div class="d-flex flex-row">
+                        <div><i class="fa-solid fa-phone footer-section-icons" style="color: #dedede;"></i></div>
+                    <div><p class="portfolio-description">7032759352</p></div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-3">
+                    <p class="portfolio-heading">E-mail</p>
+                    <div class="d-flex flex-row">
+                        <div><i class="fa-solid fa-envelope footer-section-icons" style="color: #eeeff2;"></i></div>
+                        <div><p class="portfolio-description">mannehemanthkumar2001@gmail.com</a></p></div>
+                    </div>
+                    
+                </div>
+                <div class="col-12 col-md-3">
+                    <p class="portfolio-heading">Address</p>
+                    <div class="d-flex flex-row">
+                        <div><i class="fa-solid fa-map-location-dot footer-section-icons" style="color: #cad1dd; "></i></div>
+                        <div><p class="portfolio-description">Tirupati, Andhra Pradesh, India.</p></div>
+
+                    </div>
+                    
+                </div>
+    
+            </div>
+            <div class="row footer-background">
+                <div class="col-12">
+                    <div class="d-flex flex-row justify-content-center">
+                        <div><i class="fa-regular fa-copyright footer-section-icons" style="color: #cbcfd8;"></i></div>
+                        <div><p class="portfolio-description">2024 by Hemanth. Created with Bootstrap.</p></div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br><br>
+    </div>
+    
+    
+    
+</body>
+</html>
+
+
+
+
+    
+</body>
+</html>
